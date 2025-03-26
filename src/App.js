@@ -93,7 +93,6 @@ const WeatherApp = () => {
     }
   };
 
-  // Automatically fetch weather for Gandhinagar when component mounts
   useEffect(() => {
     fetchWeather();  // eslint-disable-next-line
   }, []);
